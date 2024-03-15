@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker 🏋🏾🏋🏻‍♂️🏋🏽‍♀️</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="watch-container">
+        <!-- Lesson 1: Introduction to the DOM -->
+        <div id="welcomeMessage"></div>
+        <script>
+           // const welcomeMessage = () => {
+           //     const today = new Date().toDateString();
+           //     document.getElementById('welcomeMessage').textContent = `🤸🏾‍♀️ Welcome to Your Fitness Tracker 🥗 Today is ${today}`;
+           // };
+           // welcomeMessage();
+
+        </script>
+
+
+        <!-- Lesson 2: Selecting and Manipulating Elements -->
+        <div>
+            <input type="text" id="workoutInput" placeholder="Enter your workout">
+            <button id="submitWorkout">Add Workout 💪🏾</button>
+            <ul id="workoutList"></ul>
+
+
+        </div>
+        <script>
+           // const displayWorkoutRoutine = () => {
+           //      const workoutInput = document.querySelector('#workoutInput').value;
+           //     const workoutList = document.querySelector('#workoutList');
+           //     const newWorkout = document.createElement('li');
+           //     newWorkout.textContent = workoutInput;
+           //     workoutList.appendChild(newWorkout);
+           // };
+           // document.querySelector('#submitWorkout').addEventListener('click', displayWorkoutRoutine);
+
+
+        </script>
+
+        <!-- Lesson 3: Creating and Removing Elements -->
+        <div>
+            <input type="text" id="goalInput" placeholder="Enter your fitness goal">
+            <button id="submitGoal">Add Goal 🏆</button>
+            <ul id="goalList"></ul>
+        </div>
+        <script>
+           // document.querySelector('#submitWorkout').addEventListener('click', displayWorkoutRoutine);
+
+           // const addNewGoal = () => {
+           //     const goalInput = document.querySelector('#goalInput').value;
+           //     const goalList = document.querySelector('#goalList');
+           //     if (goalInput === list.filter(goalList)){
+           //         
+           //     }
+
+
+           //     const newGoal = document.createElement('li');
+           //     newGoal.textContent = goalInput;
+           //     goalList.appendChild(newGoal);
+
+           //     newGoal.addEventListener('click', () => {
+           //         goalList.removeChild(newGoal);
+           //     });
+           // };
+
+           // document.querySelector('#submitGoal').addEventListener('click', addNewGoal);
+        </script>
+
+        <!-- Lesson 4: Event Handling -->
+        <div>
+            <h3>Water Intake 🥤</h3>
+            <button id="increaseWater">+1 glass</button>
+            <button id="decreaseWater">-1 glass</button>
+            <div id="waterIntakeDisplay">0 glasses</div>
+        </div>
+        <script>
+            //let waterIntake = 0;
+            //const updateWaterIntake = (change) => {
+            //    waterIntake += change;
+            //    document.querySelector('#waterIntakeDisplay').textContent = `${waterIntake} glasses 💦`;
+            //};
+
+            //document.querySelector('#increaseWater').addEventListener('click', () => updateWaterIntake(1));
+            //document.querySelector('#decreaseWater').addEventListener('click', () => updateWaterIntake(-1));
+
+        </script>
+
+        <!-- Lesson 5: Advanced DOM Manipulation -->
+        <!-- Weekly progress charts (mockup) -->
+        <div>
+            <h3>Weekly Progress 📈</h3>
+            <div id="workoutProgress">Workout progress will appear here...</div>
+            <div id="calorieIntakeProgress">Calorie intake progress will appear here...</div>
+        </div>
+        <script>
+            //const updateProgressCharts = () => {
+            //    document.querySelector('#workoutProgress').textContent = "Updated workout progress...";
+            //    document.querySelector('#calorieIntakeProgress').textContent = "Updated calorie intake progress...";
+            //};
+
+            // Assuming user enters data, this function would be called
+            //updateProgressCharts();
+
+        </script>
+
+        <!-- Lesson 6: CSS Manipulation via JavaScript -->
+        <button id="themeToggle">Toggle Theme 🌓</button>
+        <script>
+            // Function to toggle light and dark mode
+            //const toggleTheme = () => {
+            //    document.body.classList.toggle('dark-theme');
+            //};
+
+            //document.querySelector('#themeToggle').addEventListener('click', toggleTheme);
+
+
+        </script>
+
+        <!-- Lesson 7: Handling Forms and User Input -->
+        <form id="mealPlanForm">
+            <h3>Weekly Meal Plan</h3>
+            <input type="text" placeholder="Monday's Meal" required>
+            <input type="text" placeholder="Tuesday's Meal" required>
+            <!-- Additional days omitted for brevity -->
+            <button type="submit">Submit Meal Plan</button>
+        </form>
+        <script>
+            // Function to handle weekly meal plan form submission
+
+            //const submitMealPlan = (event) => {
+            //    event.preventDefault(); // Prevent the form from submitting in the traditional way
+            //    alert('Meal plan submitted successfully! 🍴');
+            //};
+
+            //document.querySelector('#mealPlanForm').addEventListener('submit', submitMealPlan);
+
+
+        </script>
+
+        <!-- Lesson 8: Debugging the DOM -->
+        <!-- No additional HTML for Lesson 8, as it focuses on debugging -->
+        <script>
+
+        </script>
+    </div>
+    <script src="index.js"></script> <!-- Link to JavaScript file -->
+</body>
+
+</html>
